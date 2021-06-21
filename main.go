@@ -13,7 +13,7 @@ import (
 ///
 func main() {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter the fisrt word: ")
+	fmt.Print("Enter the first word: ")
 	first, _ := reader.ReadString('\n')
 	first = strings.Replace(first, "\n", "", -1)
 
@@ -26,7 +26,7 @@ func main() {
 	// first := "cat"
 	// last := "dog"
 
-	if len(first) != len(last) {
+	if (len(first) != len(last)) || first == "" || last == "" {
 		fmt.Println("Error: Incorrect Inputs")
 		return
 	}
