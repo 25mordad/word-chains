@@ -21,6 +21,7 @@ A "Go" solution for the "Word Chains" problem.
 ## Some Results:
 
 `Enter the first word: cat
+
 Enter the last word: dog
 START
 [cat cot cog dog]
