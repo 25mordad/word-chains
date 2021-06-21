@@ -21,15 +21,25 @@ A "Go" solution for the "Word Chains" problem.
 ## Some Results:
 
 `Enter the first word: cat
+
 Enter the last word: dog
+
 START
+
 [cat cot cog dog]
+
 END
+
 2021/06/22 01:36:47 ---> TIME 225.225371ms`
 
 `Enter the first word: dog
+
 Enter the last word: cat
+
 START
+
 [dog cog cot cat]
+
 END
+
 2021/06/22 01:39:21 ---> TIME 267.260475ms`
