@@ -33,3 +33,5 @@ START
 [dog cog cot cat]
 END
 2021/06/22 01:39:21 ---> TIME 267.260475ms`
+
+![results](https://i.imgur.com/ppJV9tH.png)
